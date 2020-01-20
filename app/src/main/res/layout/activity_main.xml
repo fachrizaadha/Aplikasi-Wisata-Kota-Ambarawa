@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ambarawa"
+    tools:context="com.example.aplikasiwisataambarawa.MainActivity">
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/wisata"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="170dp"
+        android:id="@+id/btn_wisata"/>
+
+    <Button
+        android:id="@+id/btn_kuliner"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:text="@string/kuliner"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:text="@string/tentang"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginTop="360dp"
+        android:textSize="18sp"
+        android:id="@+id/btn_tentang"/>
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:text="@string/keluar"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginTop="460dp"
+        android:textSize="18sp"
+        android:id="@+id/btn_keluar"/>
+
+
+</RelativeLayout>

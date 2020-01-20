@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splashscreen"
+
+    tools:context="com.example.aplikasiwisataambarawa.wisata">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/wisataambarawa"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/wisata1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/goaambaraparagan"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Museum Palagan Ambarawa"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:background="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/wisata2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/kaambarawa"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="Museum Kereta Api Ambarawa"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/wisata3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/airsemirang"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Air Terjun Semirang"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:background="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/wisata4"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/rawapening"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Wisata Rawa Pening"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:background="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/wisata5"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/bungacelosia"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Taman Bunga Celosia"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:background="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/wisata6"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/bentengpendem"
+            tools:ignore="contentDescription" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Benteng Pendem Ambarawa"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:background="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/wisata7"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/alunambarawa"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Alun Alun Ambarawa"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:background="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/wisata8"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/elingbening"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Eling Bening"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:background="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/wisata9"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/umbulsidomukti"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Umbul Sido Mukti"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:background="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/wisata10"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/goaroang"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Goa Roang View"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:background="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/wisata11"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/kampungbejalen"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Kampung Pelangi Bejalen"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:background="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+
+        <ImageView
+            android:id="@+id/wisata12"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/goamariakerep"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Gua Maria Kerep"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:background="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+
+        <ImageView
+            android:id="@+id/wisata13"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/lerengkelir"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Lereng Kelir"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:background="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+</ScrollView>

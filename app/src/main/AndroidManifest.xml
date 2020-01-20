@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aplikasiwisataambarawa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/travel"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/travel"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.aplikasiwisataambarawa.serabingampin"></activity>
+        <activity android:name="com.example.aplikasiwisataambarawa.MainActivity" />
+        <activity android:name="com.example.aplikasiwisataambarawa.splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.aplikasiwisataambarawa.tentang" />
+        <activity android:name="com.example.aplikasiwisataambarawa.kuliner" />
+        <activity android:name="com.example.aplikasiwisataambarawa.keluar" />
+        <activity android:name="com.example.aplikasiwisataambarawa.pecelmbokkami" />
+        <activity android:name="com.example.aplikasiwisataambarawa.evacoffee" />
+        <activity android:name="com.example.aplikasiwisataambarawa.tahuserasi" />
+        <activity android:name="com.example.aplikasiwisataambarawa.elingbening" />
+        <activity android:name="com.example.aplikasiwisataambarawa.lerengkelir" />
+        <activity android:name="com.example.aplikasiwisataambarawa.goamariakerep" />
+        <activity android:name="com.example.aplikasiwisataambarawa.goarong" />
+        <activity android:name="com.example.aplikasiwisataambarawa.kampungbejalen" />
+        <activity android:name="com.example.aplikasiwisataambarawa.sidomukti" />
+        <activity android:name="com.example.aplikasiwisataambarawa.alunalun" />
+        <activity android:name="com.example.aplikasiwisataambarawa.bentengpendem" />
+        <activity android:name="com.example.aplikasiwisataambarawa.tamanbungacelosia" />
+        <activity android:name="com.example.aplikasiwisataambarawa.rawapening" />
+        <activity android:name="com.example.aplikasiwisataambarawa.airterjunsemirang" />
+        <activity android:name="com.example.aplikasiwisataambarawa.museumkaambarawa" />
+        <activity android:name="com.example.aplikasiwisataambarawa.museumpalagan" />
+        <activity android:name="com.example.aplikasiwisataambarawa.wisata" />
+    </application>
+
+</manifest>

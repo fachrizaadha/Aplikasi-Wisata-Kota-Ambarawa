@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aplikasiwisataambarawa.tahuserasi">
+
+    <TextView
+        android:id="@+id/tahu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tahuu"
+        android:textSize="29sp"
+        android:layout_below="@+id/pict4"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="0dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:id="@+id/pict4"
+        android:src="@drawable/tahu"
+        android:scaleType="fitXY"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="112dp"
+        tools:ignore="contentDescription"/>
+
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt2"
+        android:textSize="14sp"
+        android:id="@+id/text"
+        android:layout_below="@id/tahu"
+        android:layout_marginTop="20sp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_tahu"
+        android:layout_below="@id/text"
+        android:textSize="15sp"
+        android:text="@string/lokasi"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="500dp" />
+</RelativeLayout>

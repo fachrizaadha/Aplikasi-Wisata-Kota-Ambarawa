@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aplikasiwisataambarawa.tentang">
+
+    <ImageView
+        android:id="@+id/pict1"
+        android:layout_width="match_parent"
+        android:layout_height="263dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bt"
+        tools:ignore="contentDescription" />
+
+    <me.biubiubiu.justifytext.library.JustifyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pict1"
+        android:layout_marginTop="20dp"
+        android:text="@string/tentang_txt"
+        android:textSize="22sp" />
+</RelativeLayout>

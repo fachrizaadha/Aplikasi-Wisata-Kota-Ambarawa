@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splashscreen"
+    tools:context="com.example.aplikasiwisataambarawa.wisata">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/kuliner"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/kuliner1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/tahuserasi"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Tahu Serasi"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:background="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/kuliner2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/serabingampin"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="Serabi Ngampin"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/kuliner3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/evacoffee"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Eva House Coffee"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:background="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/kuliner4"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/pecelmbokkami"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Pecel Mbok Kami"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:background="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+
+    </LinearLayout>
+</ScrollView>
